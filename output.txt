@@ -1,0 +1,850 @@
+Title: OpenRC
+----
+Subtitle: OpenRC
+----
+Text: OpenRC
+----
+Categories: prosjektideer
+----
+
+
+Title: Husroboten
+----
+Subtitle: Husroboten
+----
+Text: Husroboten
+----
+Categories: prosjektideer
+----
+
+
+Title: Gigakaeder
+----
+Subtitle: Gigakaeder
+----
+Text: Gigakaeder
+----
+Categories: prosjektideer
+----
+
+
+Title: Gear train
+----
+Subtitle: Gear train
+----
+Text: Gear train
+----
+Categories: prosjektideer
+----
+
+
+Title: Loddestasjon
+----
+Subtitle: Loddestasjon
+----
+Text: Loddestasjon
+----
+Categories: funksjonelle områder
+----
+
+
+Title: Wiki
+----
+Subtitle: Wiki
+----
+Text: Wiki
+----
+Categories: funksjonelle områder
+----
+
+
+Title: Blader, papers og bøker
+----
+Subtitle: Blader, papers og bøker
+----
+Text: Blader, papers og bøker
+----
+Categories: funksjonelle områder
+----
+
+
+Title: Sofahjørnet
+----
+Subtitle: Sofahjørnet
+----
+Text: Sofahjørnet
+----
+Categories: funksjonelle områder
+----
+
+
+Title: Roteboksen
+----
+Subtitle: Roteboksen
+----
+Text: Roteboksen
+----
+Categories: funksjonelle områder
+----
+
+
+Title: Utstilling
+----
+Subtitle: Utstilling
+----
+Text: Utstilling
+----
+Categories: funksjonelle områder
+----
+
+
+Title: Arduino
+----
+Subtitle: Arduino
+----
+Text: Arduino
+----
+Categories: programvare
+----
+
+
+Title: Illustrator/Adobe Creative Suite
+----
+Subtitle: Illustrator/Adobe Creative Suite
+----
+Text: Illustrator/Adobe Creative Suite
+----
+Categories: programvare
+----
+
+
+Title: Processing
+----
+Subtitle: Processing
+----
+Text: Processing
+----
+Categories: programvare
+----
+
+
+Title: Android
+----
+Subtitle: Android
+----
+Text: Android
+----
+Categories: programvare
+----
+
+
+Title: FinalCut Pro
+----
+Subtitle: FinalCut Pro
+----
+Text: FinalCut Pro
+----
+Categories: programvare
+----
+
+
+Title: NetLogo
+----
+Subtitle: NetLogo
+----
+Text: NetLogo
+----
+Categories: programvare
+----
+
+
+Title: Ilya Kostolomov
+----
+Subtitle: Ilya Kostolomov
+----
+Text: Ilya Kostolomov
+----
+Categories: medlemmer
+----
+
+
+Title: Bao Marianna Nguyen
+----
+Subtitle: Bao Marianna Nguyen
+----
+Text: Bao Marianna Nguyen
+----
+Categories: medlemmer
+----
+
+
+Title: Persijn D. Kwekkeboom
+----
+Subtitle: Persijn D. Kwekkeboom
+----
+Text: Persijn D. Kwekkeboom
+----
+Categories: medlemmer
+----
+
+
+Title: Srod Karim
+----
+Subtitle: Srod Karim
+----
+Text: Srod Karim
+----
+Categories: medlemmer
+----
+
+
+Title: Fredrik Hov
+----
+Subtitle: Fredrik Hov
+----
+Text: Fredrik Hov
+----
+Categories: medlemmer
+----
+
+
+Title: Asgeir Mortensen
+----
+Subtitle: Asgeir Mortensen
+----
+Text: Asgeir Mortensen
+----
+Categories: medlemmer
+----
+
+
+Title: Jan Ole Skotterud
+----
+Subtitle: Jan Ole Skotterud
+----
+Text: Jan Ole Skotterud
+----
+Categories: medlemmer
+----
+
+
+Title: Fredrik Hov
+----
+Subtitle: Fredrik Hov
+----
+Text: Fredrik Hov
+----
+Categories: medlemmer
+----
+
+
+Title: Kyrre Havik Eriksen
+----
+Subtitle: Kyrre Havik Eriksen
+----
+Text: Kyrre Havik Eriksen
+----
+Categories: medlemmer, foredragsholdere
+----
+
+
+Title: Sigmund Hansen
+----
+Subtitle: Sigmund Hansen
+----
+Text: Sigmund Hansen
+----
+Categories: medlemmer, foredragsholdere
+----
+
+
+Title: Veronika Heimsbak
+----
+Subtitle: Veronika Heimsbak
+----
+Text: Veronika Heimsbak
+----
+Categories: medlemmer, foredragsholdere
+----
+
+
+Title: Jonathan Ringstad
+----
+Subtitle: Jonathan Ringstad
+----
+Text: Jonathan Ringstad
+----
+Categories: medlemmer, foredragsholdere
+----
+
+
+Title: Roger Antonsen
+----
+Subtitle: Roger Antonsen
+----
+Text: Roger Antonsen
+----
+Categories: medlemmer, foredragsholdere
+----
+
+
+Title: Tom Igoe
+----
+Subtitle: Tom Igoe
+----
+Text: Tom Igoe
+----
+Categories: foredragsholdere
+----
+
+
+Title: Den fullstendige maskinen
+----
+Subtitle: Den fullstendige maskinen
+----
+Text: Den fullstendige maskinen
+----
+Categories: prosjekter
+----
+
+
+Title: Krydderino
+----
+Subtitle: Krydderino
+----
+Text: Krydderino
+----
+Categories: prosjekter
+----
+
+
+Title: Pink Ardubot
+----
+Subtitle: Pink Ardubot
+----
+Text: Pink Ardubot
+----
+Categories: prosjekter
+----
+
+
+Title: Babybot
+----
+Subtitle: Babybot
+----
+Text: Babybot
+----
+Categories: prosjekter
+----
+
+
+Title: B.L.I.M.P.
+----
+Subtitle: B.L.I.M.P.
+----
+Text: B.L.I.M.P.
+----
+Categories: prosjekter
+----
+
+
+Title: Arkademaskina
+----
+Subtitle: Arkademaskina
+----
+Text: Arkademaskina
+----
+Categories: prosjekter, utviklingsplatformer
+----
+
+
+Title: Game of Light
+----
+Subtitle: Game of Light
+----
+Text: Game of Light
+----
+Categories: prosjekter, utviklingsplatformer
+----
+
+
+Title: Turtlebot
+----
+Subtitle: Turtlebot
+----
+Text: Turtlebot
+----
+Categories: prosjekter, utviklingsplatformer
+----
+
+
+Title: Pleo
+----
+Subtitle: Pleo
+----
+Text: Pleo
+----
+Categories: utviklingsplatformer
+----
+
+
+Title: Quadcopter
+----
+Subtitle: Quadcopter
+----
+Text: Quadcopter
+----
+Categories: utviklingsplatformer
+----
+
+
+Title: E-puck
+----
+Subtitle: E-puck
+----
+Text: E-puck
+----
+Categories: utviklingsplatformer
+----
+
+
+Title: DFRobot-platformen (Thinkee Winkee)
+----
+Subtitle: DFRobot-platformen (Thinkee Winkee)
+----
+Text: DFRobot-platformen (Thinkee Winkee)
+----
+Categories: utviklingsplatformer
+----
+
+
+Title: Commodore64
+----
+Subtitle: Commodore64
+----
+Text: Commodore64
+----
+Categories: utviklingsplatformer
+----
+
+
+Title: Energy Micro
+----
+Subtitle: Energy Micro
+----
+Text: Energy Micro
+----
+Categories: utviklingsplatformer
+----
+
+
+Title: Arduino
+----
+Subtitle: Arduino
+----
+Text: Arduino
+----
+Categories: utviklingsplatformer
+----
+
+
+Title: Raspberry Pi
+----
+Subtitle: Raspberry Pi
+----
+Text: Raspberry Pi
+----
+Categories: utviklingsplatformer
+----
+
+
+Title: Fignition
+----
+Subtitle: Fignition
+----
+Text: Fignition
+----
+Categories: utviklingsplatformer
+----
+
+
+Title: Gameduino
+----
+Subtitle: Gameduino
+----
+Text: Gameduino
+----
+Categories: utviklingsplatformer
+----
+
+
+Title: Diverse robotplatformer
+----
+Subtitle: Diverse robotplatformer
+----
+Text: Diverse robotplatformer
+----
+Categories: utviklingsplatformer
+----
+
+
+Title: Emotiv
+----
+Subtitle: Emotiv
+----
+Text: Emotiv
+----
+Categories: utviklingsplatformer
+----
+
+
+Title: Infoskjerm
+----
+Subtitle: Infoskjerm
+----
+Text: Infoskjerm
+----
+Categories: utviklingsplatformer
+----
+
+
+Title: Weller WD-1
+----
+Subtitle: Weller WD-1
+----
+Text: Weller WD-1
+----
+Categories: instrumenter og verktøy
+----
+
+
+Title: Rigol 1102A
+----
+Subtitle: Rigol 1102A
+----
+Text: Rigol 1102A
+----
+Categories: instrumenter og verktøy
+----
+
+
+Title: Ultimaker
+----
+Subtitle: Ultimaker
+----
+Text: Ultimaker
+----
+Categories: instrumenter og verktøy
+----
+
+
+Title: Makerbot
+----
+Subtitle: Makerbot
+----
+Text: Makerbot
+----
+Categories: instrumenter og verktøy
+----
+
+
+Title: Printrbot
+----
+Subtitle: Printrbot
+----
+Text: Printrbot
+----
+Categories: instrumenter og verktøy
+----
+
+
+Title: Plastknekker
+----
+Subtitle: Plastknekker
+----
+Text: Plastknekker
+----
+Categories: instrumenter og verktøy
+----
+
+
+Title: Foto- og videoutstyr
+----
+Subtitle: Foto- og videoutstyr
+----
+Text: Foto- og videoutstyr
+----
+Categories: instrumenter og verktøy
+----
+
+
+Title: GoPro
+----
+Subtitle: GoPro
+----
+Text: GoPro
+----
+Categories: instrumenter og verktøy
+----
+
+
+Title: Lydutstyr
+----
+Subtitle: Lydutstyr
+----
+Text: Lydutstyr
+----
+Categories: instrumenter og verktøy
+----
+
+
+Title: Tøy
+----
+Subtitle: Tøy
+----
+Text: Tøy
+----
+Categories: materialer
+----
+
+
+Title: MakerBeam
+----
+Subtitle: MakerBeam
+----
+Text: MakerBeam
+----
+Categories: materialer
+----
+
+
+Title: Mecano
+----
+Subtitle: Mecano
+----
+Text: Mecano
+----
+Categories: materialer
+----
+
+
+Title: Plast
+----
+Subtitle: Plast
+----
+Text: Plast
+----
+Categories: materialer
+----
+
+
+Title: Generiske El-komponenter
+----
+Subtitle: Generiske El-komponenter
+----
+Text: Generiske El-komponenter
+----
+Categories: materialer
+----
+
+
+Title: PCB/stripeboards
+----
+Subtitle: PCB/stripeboards
+----
+Text: PCB/stripeboards
+----
+Categories: materialer
+----
+
+
+Title: Robotica Osloensis
+----
+Subtitle: Robotica Osloensis
+----
+Text: Robotica Osloensis
+----
+Categories: samarbeidspartnere
+----
+
+
+Title: Statoil
+----
+Subtitle: Statoil
+----
+Text: Statoil
+----
+Categories: samarbeidspartnere
+----
+
+
+Title: The Gathering
+----
+Subtitle: The Gathering
+----
+Text: The Gathering
+----
+Categories: samarbeidspartnere
+----
+
+
+Title: Lær kidsa kode
+----
+Subtitle: Lær kidsa kode
+----
+Text: Lær kidsa kode
+----
+Categories: samarbeidspartnere
+----
+
+
+Title: Teknisk museum
+----
+Subtitle: Teknisk museum
+----
+Text: Teknisk museum
+----
+Categories: samarbeidspartnere
+----
+
+
+Title: Telemuseet
+----
+Subtitle: Telemuseet
+----
+Text: Telemuseet
+----
+Categories: samarbeidspartnere
+----
+
+
+Title: Eggbot
+----
+Subtitle: Eggbot
+----
+Text: Eggbot
+----
+Categories: severdigheter
+----
+
+
+Title: Rubiks kube
+----
+Subtitle: Rubiks kube
+----
+Text: Rubiks kube
+----
+Categories: severdigheter
+----
+
+
+Title: Singularity Chess
+----
+Subtitle: Singularity Chess
+----
+Text: Singularity Chess
+----
+Categories: severdigheter
+----
+
+
+Title: LittleBits
+----
+Subtitle: LittleBits
+----
+Text: LittleBits
+----
+Categories: severdigheter
+----
+
+
+Title: Romo
+----
+Subtitle: Romo
+----
+Text: Romo
+----
+Categories: severdigheter
+----
+
+
+Title: Sifteo
+----
+Subtitle: Sifteo
+----
+Text: Sifteo
+----
+Categories: severdigheter
+----
+
+
+Title: Zome
+----
+Subtitle: Zome
+----
+Text: Zome
+----
+Categories: severdigheter
+----
+
+
+Title: Hexbug
+----
+Subtitle: Hexbug
+----
+Text: Hexbug
+----
+Categories: severdigheter
+----
+
+
+Title: Sensorer
+----
+Subtitle: Sensorer
+----
+Text: Sensorer
+----
+Categories: spesielle komponenter
+----
+
+
+Title: Motorer/aktuatorer
+----
+Subtitle: Motorer/aktuatorer
+----
+Text: Motorer/aktuatorer
+----
+Categories: spesielle komponenter
+----
+
+
+Title: Batterier
+----
+Subtitle: Batterier
+----
+Text: Batterier
+----
+Categories: spesielle komponenter
+----
+
+
+Title: GameJam
+----
+Subtitle: GameJam
+----
+Text: GameJam
+----
+Categories: arrangementer
+----
+
+
+Title: Campus TG
+----
+Subtitle: Campus TG
+----
+Text: Campus TG
+----
+Categories: arrangementer
+----
+
+
