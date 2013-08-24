@@ -1,5 +1,0 @@
-Title: programvare
-----
-Priority: 0.25
-----
-Text:

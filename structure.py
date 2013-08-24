@@ -2,13 +2,30 @@
 
 import os
 
+def lorem_ipsum():
+    return \
+"""Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pretium purus et odio tincidunt, ac laoreet enim volutpat. Donec lacus tortor, lacinia eu orci nec, aliquam ornare eros. Aliquam mollis magna ut metus convallis vulputate. Mauris eget rutrum nibh, vitae varius metus. Vestibulum malesuada imperdiet tellus, non tristique quam aliquam in. Aliquam at nulla eget diam pellentesque tincidunt sed vitae ligula. Nam posuere est felis, eu consequat tortor faucibus id. Mauris gravida est vitae purus ultrices, eu pharetra ante posuere. Proin venenatis urna ut volutpat sollicitudin. Donec in justo et arcu tempus lobortis. Quisque facilisis adipiscing augue vitae hendrerit.
+
+Pellentesque ultricies nulla at ante volutpat, sit amet elementum magna tincidunt. Fusce magna arcu, semper at lacus ac, tincidunt dapibus mi. Nulla non sapien sed elit gravida volutpat. Donec ac viverra tortor. Nam ultrices justo quis nisl semper, eget blandit eros euismod. Proin leo elit, hendrerit eget leo faucibus, interdum aliquet lacus. Ut rhoncus diam dui, quis accumsan augue viverra eget. Praesent blandit orci odio, vitae elementum arcu congue vel. Integer in nibh eget lectus laoreet consequat.
+
+Morbi ullamcorper eget mi ac mattis. In hac habitasse platea dictumst. Suspendisse dignissim orci a tellus imperdiet consequat. Cras a placerat dui, eget elementum elit. Maecenas lacinia turpis et dui pharetra semper. Nunc fringilla neque scelerisque orci fringilla lobortis. Donec ac ornare dui. Sed viverra eget arcu id aliquam. Nullam eleifend at augue ut egestas. Suspendisse blandit enim id semper bibendum. Fusce quis interdum elit. Pellentesque nec diam nec elit commodo iaculis. Maecenas lobortis mauris facilisis velit varius, id interdum sapien eleifend. Nam feugiat ante id velit ultrices mattis. Donec ut arcu tortor. Mauris id mollis augue.
+
+Donec aliquam, felis quis eleifend vestibulum, purus ante semper sapien, nec sagittis diam nibh eu velit. Cras sed iaculis diam. Morbi nisl odio, dictum non cursus ut, vehicula in metus. Vestibulum lobortis ut lectus ut consectetur. Donec nisi odio, mollis in pharetra eget, auctor et felis. Nam rhoncus dictum dolor, sed dapibus est sollicitudin quis. Donec sit amet pharetra ligula. Aliquam suscipit molestie nisi ac condimentum. Cras vel leo iaculis, vestibulum felis non, egestas tellus. Vestibulum imperdiet sagittis velit, non eleifend erat ultricies sit amet. Morbi non suscipit massa. Cras et nibh vel tortor pulvinar ornare.
+
+Aenean leo dui, bibendum nec porttitor euismod, tempus sed sapien. Nunc sagittis quis nunc quis rutrum. Suspendisse nec nulla non enim aliquet interdum. In luctus ligula eget metus auctor rhoncus. Nulla vel dapibus mi, at bibendum ipsum. Nam vitae lectus volutpat, luctus elit non, bibendum tortor. Nunc non ultrices eros. Etiam elementum aliquam massa ac ullamcorper. Ut viverra vitae lacus sed feugiat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;""".strip()
+
+
 class Category:
     def __init__( self, name, priority=1.0 ):
         self.name = name
         self.priority = priority
+        self.ordinal = 0
 
     def __repr__( self ):
         return "Kategori<{0}>".format( self.name )
+
+    def set_ordinal( self, n ):
+        self.ordinal = n
 
 
 class Entry:
@@ -18,10 +35,8 @@ class Entry:
         self.tag_names = []
 
     def set_categories( self, categories ):
-        self.categories.update( categories )
-
-
-
+        for c in categories:
+            self.categories.add( c )
 
     def set_tags( self, tag_names ):
         self.tag_names = tag_names
@@ -40,7 +55,7 @@ class Categories:
         self.categories[key] = value
 
     def __getitem__( self, category_name ):
-        self( category_name )
+        return self.categories.get( category_name )
 
     def __call__( self, category_name ):
         return self.categories.get( category_name )
@@ -68,11 +83,11 @@ class Entries:
     def __len__( self ):
         return len( self.entries )
 
-    def create_in_categories( self, category_names, *args ):
+    def create_in_categories( self, categories, category_names, *args ):
         if len(args):
             for entry in args:
                 for n in category_names:
-                    entry.set_categories( categories )
+                    entry.categories.add( categories[n] )
                     self.entries.append( entry )
 
 class E(Entry):
@@ -88,7 +103,7 @@ if __name__ == "__main__":
 
     category_definitions = [
         ( "prosjekter",                 0.625 ),
-        ( "utviklingsplaformer",        0.625 ),
+        ( "utviklingsplatformer",        0.625 ),
         ( "funksjonelle områder",       0.625 ),
         ( "arrangementer",              0.625 ),
         ( "instrumenter og verktøy",    0.625 ),
@@ -115,6 +130,8 @@ if __name__ == "__main__":
 
     entries.create_in_categories(
 
+        categories,
+
         [ 'prosjektideer'],
 
         E(
@@ -137,6 +154,8 @@ if __name__ == "__main__":
 
 
     entries.create_in_categories(
+
+        categories,
 
         [ 'funksjonelle områder' ],
 
@@ -168,6 +187,8 @@ if __name__ == "__main__":
 
     entries.create_in_categories(
 
+        categories,
+
         ['programvare'],
 
         E(
@@ -198,6 +219,8 @@ if __name__ == "__main__":
 
 
     entries.create_in_categories(
+
+        categories,
 
         ['medlemmer'],
 
@@ -238,6 +261,8 @@ if __name__ == "__main__":
 
     entries.create_in_categories(
 
+        categories,
+
         ['medlemmer', 'foredragsholdere'],
 
         E(
@@ -267,6 +292,8 @@ if __name__ == "__main__":
 
     entries.create_in_categories(
 
+        categories,
+
         ['foredragsholdere'],
 
         E(
@@ -278,6 +305,8 @@ if __name__ == "__main__":
 
 
     entries.create_in_categories(
+
+        categories,
 
         ['prosjekter'],
 
@@ -306,6 +335,7 @@ if __name__ == "__main__":
 
 
     entries.create_in_categories(
+        categories,
 
         ['prosjekter', 'utviklingsplatformer'],
 
@@ -326,6 +356,7 @@ if __name__ == "__main__":
 
 
     entries.create_in_categories(
+        categories,
 
         ['utviklingsplatformer'],
 
@@ -386,6 +417,7 @@ if __name__ == "__main__":
 
 
     entries.create_in_categories(
+        categories,
 
         ['instrumenter og verktøy'],
 
@@ -430,6 +462,7 @@ if __name__ == "__main__":
 
 
     entries.create_in_categories(
+        categories,
 
         ['materialer'],
 
@@ -462,6 +495,7 @@ if __name__ == "__main__":
 
 
     entries.create_in_categories(
+        categories,
 
         ['samarbeidspartnere'],
 
@@ -494,6 +528,7 @@ if __name__ == "__main__":
 
 
     entries.create_in_categories(
+        categories,
 
         ['severdigheter'],
 
@@ -534,6 +569,7 @@ if __name__ == "__main__":
 
 
     entries.create_in_categories(
+        categories,
 
         ['spesielle komponenter'],
 
@@ -554,6 +590,7 @@ if __name__ == "__main__":
 
 
     entries.create_in_categories(
+        categories,
 
         ['arrangementer'],
 
@@ -618,7 +655,7 @@ if __name__ == "__main__":
     parents = set()
 
     for e in entries:
-        parents.update( set( e.categories ) )
+        parents.update( e.categories )
 
     print parents, len(parents)
 
@@ -634,6 +671,9 @@ if __name__ == "__main__":
     # PARENTS (categories)
 
     for n,c in counted_parents:
+
+        c.set_ordinal( n )
+
         category_folder_name = encode_to_filesystem(c.name)
         category_folder_template = "{category_number:02d}-{category_name}"
         enumerated_category_folder_name = category_folder_template.format(
@@ -656,26 +696,61 @@ if __name__ == "__main__":
                 '----',
                 'Priority: {1}',
                 '----',
-                'Text:'
+                'Text: {2}'
             ])
 
             if not os.path.exists( category_description_file ):
                 to_file_contents(
                     category_description_file,
                     category_description_template.format(
-                        c.name, c.priority
+                        c.name, # 0
+                        c.priority, # 1
+                        lorem_ipsum() # 2
                     )
                 )
 
+
     # CHILDREN
 
+    print "Number of children: ", len(entries)
+
     enumerated_entries = enumerate( entries, 1 )
+    enumerated_entry_folder = \
+        "{category_counter:02d}-{category_name}/{child_counter:02d}-{child_name}"
 
-    for n,e in enumerated_entries:
+    enumerated_entry_file = \
+        enumerated_entry_folder + "/{child_counter:02d}-{child_name}.{extension}"
 
-        child_category_names = [c.name for c in e.categories]
+    for n, e in enumerated_entries:
 
-        print child_category_names
+        print e
+
+        for c in e.categories:
+
+            enumerated_entry_folder_name = \
+                enumerated_entry_folder.format(
+                    category_counter=c.ordinal,
+                    category_name=encode_to_filesystem(c.name),
+                    child_counter=n,
+                    child_name=encode_to_filesystem(e.title)
+                )
+
+            if not os.path.exists( enumerated_entry_folder_name ):
+                os.makedirs( enumerated_entry_folder_name )
+
+                to_file_contents(
+                    enumerated_entry_file
+                )
+
+
+
+                # create child folder
+                    #   {category_counter}-{category_name}/{child_counter}-{child_name}
+
+                #for n in child_category_names:
+                #    if not os.path.exists( enumerated_category_folder_name ):
+                #        os.makedirs( enumerated_category_folder_name )
+
 
 
 
@@ -692,8 +767,6 @@ if __name__ == "__main__":
     #   {category_counter}-{category_name}/{child_counter}-{child_name}/{child_counter}-{child_name}.main.png
     #   {category_counter}-{category_name}/{child_counter}-{child_name}/{child_counter}-{child_name}.thumb.png
     # create
-
-
 
 
 

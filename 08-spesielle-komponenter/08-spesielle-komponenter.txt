@@ -1,5 +1,0 @@
-Title: spesielle komponenter
-----
-Priority: 0.125
-----
-Text:

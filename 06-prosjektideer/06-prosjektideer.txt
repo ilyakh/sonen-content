@@ -1,5 +1,0 @@
-Title: prosjektideer
-----
-Priority: 0.125
-----
-Text:
